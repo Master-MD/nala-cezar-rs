@@ -2,6 +2,7 @@
 //!
 //! Compares live measured `NALA-Cezar-RS` nanosecond/microsecond latencies against the
 //! Node.js 20+ (`tsx` / V8 / `hono` / `proper-lockfile` / `zod`) upstream `open-mercato/cezar v0.21.0` baseline.
+//! Reproducible on macOS, Linux, and Windows with zero external dependencies.
 
 use crate::forge::parse_forge_remote;
 use crate::runners::probe_all_backends;
