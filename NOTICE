@@ -1,0 +1,15 @@
+NALA-Cezar-RS (https://github.com/Master-MD/nala-cezar-rs)
+Copyright (c) 2026 Master-MD / NALA Engineering
+
+This software is a clean-room 100% Pure Safe-Rust (`Edition 2024`, `#![forbid(unsafe_code)]`,
+zero external crates, zero Node.js, zero Python) rewrite and architectural evolution of:
+
+  * open-mercato/cezar (v0.21.0)
+    Repository: https://github.com/open-mercato/cezar
+    Copyright (c) 2026 Patryk Lewczuk
+    License: MIT License
+
+All upstream telemetry endpoints (`stats.openmercato.cloud`), cloud relay dependencies,
+and Node.js runtime downloaders have been completely omitted in `NALA-Cezar-RS` to guarantee
+100% airgap-capable, zero-telemetry sovereign execution while maintaining compatibility with
+the `.ai/cezar/` plain-file task, NDJSON event transcript, Markdown skill, and YAML workflow conventions.

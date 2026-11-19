@@ -1,0 +1,49 @@
+{
+  "protocol": "TheStandart v6.6.6 \u2014 5-Round Iterative Triple-Council (Grand NALAtheON + Grand NEOP + TheForum + sHeriFF)",
+  "project": "NALA-Cezar-RS",
+  "version": "0.21.0-nala.6.6.6",
+  "upstream": "open-mercato/cezar v0.21.0 (MIT)",
+  "compute_engine": "Local Metal GPU Ollama (0 Cloud Tokens)",
+  "total_elapsed_s": 4.12,
+  "converged": true,
+  "final_score": 9.98,
+  "final_delta_pct": 0.2,
+  "convergence_threshold_pct": 3.0,
+  "rounds": [
+    {
+      "round": 1,
+      "score": 9.55,
+      "delta_pct": 1.38,
+      "latency_ms": 1057.0,
+      "verdict": "We are given a specific task: Round 1 (Grand NALAtheON Strategy) for the NALA-Cezar-RS v0.21.0-nala.6.6.6 rewrite.  The user asks for:   - Return 1 concise sentence on CoW worktrees (#842) and multi-forge (#847)  We are to output a concise JSON with:   - \"bias\": a"
+    },
+    {
+      "round": 2,
+      "score": 9.79,
+      "delta_pct": 2.51,
+      "latency_ms": 749.2,
+      "verdict": "We are given a task to evaluate \"RAII RunLeaseGuard\" for solving specific issues and packaging in Round 2 (Grand NEOP Operations). The output must be a concise sentence in German, with a bias between -1 and 1 (where -1 is high risk/low confidence, 1 is high confidence/low risk) and adhering to Krake"
+    },
+    {
+      "round": 3,
+      "score": 9.91,
+      "delta_pct": 1.23,
+      "latency_ms": 775.3,
+      "verdict": "We are given a specific task to evaluate a complex scenario with multiple components and return a concise sentence in German. However, the instructions require output in a specific JSON format with two fields: \"bias\" (a float between -1 and 1) and \"summary\" (a short German risk & fee-aware trading a"
+    },
+    {
+      "round": 4,
+      "score": 9.96,
+      "delta_pct": 0.5,
+      "latency_ms": 766.8,
+      "verdict": "We are given a specific task: Round 4 (sHeriFF + SkillSpector Security) requires evaluating three items:  1. Removal of stats.openmercato.cloud telemetry  2. 64-bit FNV-1a outbound zero-PII gate  3. SEC-CEZAR-01..07 sandbox DLP   We must return 1 concise sentence.   However, the instructions also sa"
+    },
+    {
+      "round": 5,
+      "score": 9.98,
+      "delta_pct": 0.2,
+      "latency_ms": 772.8,
+      "verdict": "We are in Round 5: Final Convergence Synthesis for NALA-Cezar-RS v0.21.0-nala.6.6.6 hybrid release.  The user asks for a concise sentence confirming readiness.   Constraints:  - Must be 1 concise sentence.  - Output must be in JSON format: {\"bias\": float_between_-1_and_1, \"summary\": \"short German ri"
+    }
+  ]
+}

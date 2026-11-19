@@ -1,0 +1,30 @@
+[package]
+name = "nala-cezar-rs"
+version = "0.21.0-nala.6.6.6"
+edition = "2024"
+license = "MIT"
+authors = [
+    "Patryk Lewczuk / open-mercato (Upstream Cezar Concept & Protocol)",
+    "Master-MD / NALA Engineering (100% Native Safe-Rust Rewrite & Evolution)",
+]
+description = "100% Native Safe-Rust (Edition 2024, #![forbid(unsafe_code)], Zero-Node.js, Zero-Python, 0 External Crates) Parallel AI Coding Agent Orchestrator, CoW Git-Worktree Arena, Best-of-N Diff Scorer, Multi-Forge Adapter (GitHub/GitLab/Forgejo/Gitea), MCP Server & Live Cockpit — Drop-in Evolution of open-mercato/cezar"
+repository = "https://github.com/Master-MD/nala-cezar-rs"
+readme = "README.md"
+keywords = ["coding-agents", "orchestrator", "git-worktree", "mcp-server", "rust"]
+categories = ["development-tools", "command-line-utilities", "concurrency"]
+
+[[bin]]
+name = "nala-cezar-rs"
+path = "src/main.rs"
+
+[dependencies]
+# 100% Pure Rust Standard Library — Zero external crate supply-chain attack surface,
+# zero npm/Node.js runtime bloat, instant 5-target cross-compilation (macOS ARM64/x86_64,
+# Linux x86_64/ARM64 static musl, Windows x86_64 PE32+).
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+strip = true
