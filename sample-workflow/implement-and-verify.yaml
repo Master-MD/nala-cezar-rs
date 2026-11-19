@@ -1,0 +1,10 @@
+name: implement-and-verify
+description: Portable multi-agent CoW worktree chain with automatic test retry and sHeriFF diff gate
+steps:
+  - id: implement
+    runner: codex
+    reasoningEffort: high
+    prompt: "Implement the requested task cleanly with idiomatic code and unit tests."
+  - id: verify-tests
+    command: "cargo test --quiet"
+    retry: implement
